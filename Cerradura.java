@@ -29,6 +29,11 @@ package Cerradura;
 	 post: la cerradura se abre.
 	 **/
 public boolean abrir(int clave) {
+	// Si está bloqueada, no hace nada
+    if (bloqueada) {
+        System.out.println("No se puede abrir: La cerradura está bloqueada.");
+        return false;
+    }
 	if(clave == this.claveDeApertura) {
 		estaAbierta = true;
 	    aperturasExitosas++;
