@@ -1,0 +1,31 @@
+
+double[] notas = { 7.5, 4.0, 9.0, 6.5, 3.0, 8.5, 5.0, 9.5, 6.0, 4.5, 3.0 };
+
+
+¿Cuál es el promedio de los alumnos que aprobaron, ignorando al que sacó la nota más alta?
+Pista: descomponé el problema en pasos. ¿Qué operaciones de los bloques anteriores podrían reutilizar? Un posible orden:
+filtrar → encontrar el máximo → eliminarlo → promediar.
+
+// encontrar maximo patron
+double maximo = notas[0];
+for(int i = 1; i < notas.length; i ++){
+    if(notas[i] > maximo){
+        maximo = notas[i];
+      
+    }}
+//sumar los aprobados menos el maximo, patron filtron, acumulador, contador
+double suma =0;
+int cantidad =0;
+    for(int i = 0; i < notas.length; i ++){
+    if(notas[i] >= 4 && notas[i] != maximo){
+        suma+= notas[i];
+        cantidad++;
+    }}
+suma;
+maximo;
+//promediar
+double promedio = (double) suma / cantidad;
+
+
+promedio;
+    
