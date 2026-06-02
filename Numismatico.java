@@ -1,6 +1,7 @@
 package guiaProblemas;
 import Numismatico.monedas;
 import java.util.Arrays;
+//todo viene de la clase moneda tambien puesta en gitgub
 
 public class Numismatico {
 
