@@ -4,11 +4,7 @@ package guiaProblemas;
 public class FilaDeEscolares{
 
 private int[] alturas;
-private int cantidadDeAlumnos;
-private int alturaMasAlto;
-private int alturaMasBajo;
-private int Diferencia;
-private double promedio;
+
 
 	
 public FilaDeEscolares(int [] alturas) {
