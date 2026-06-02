@@ -1,4 +1,5 @@
 package Numismatico;
+//moneda es parte de la clase numismatico
 
 public class monedas {
 private String pais;
