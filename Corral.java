@@ -37,7 +37,7 @@ public static void main(String[] args) {
 	Puntos[] bebidas = { new Puntos(-3, -2), new Puntos(5, 5), new Puntos(2, 3), new Puntos(-4, 10), new Puntos(0, -7) };
    
 	System.out.println("Cuantas bebidas hay andentro? : " + corralito.cuantasBebidasAdentro(bebidas));
-	
+	//hacer mas test y subir
 	
 }	
 	
