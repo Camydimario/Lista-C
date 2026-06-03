@@ -1,5 +1,5 @@
 package aguaParalasovejas;
-//es la clase punto del problema de agua para las ovejas 
+//es la clase punto del problema de agua para las ovejas se utiliza junto con la clase Corral.java subido a gitgub
 
 public class Puntos {
 
